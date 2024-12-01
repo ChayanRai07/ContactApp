@@ -1,0 +1,65 @@
+/* Form Container */
+.main {
+    max-width: 400px; /* Adjust width as needed */
+    margin: 50px auto; /* Center the form horizontally */
+    padding: 20px; /* Add some padding */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 10px; /* Add border radius */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Add box shadow */
+  }
+  
+  /* Form Header */
+  .head {
+    text-align: center; /* Center align the header */
+    color: #007bff; /* Header color */
+  }
+  
+  /* Form Input Rows */
+  .field {
+    margin-bottom: 20px; /* Add space between form rows */
+    color: hsl(240, 3%, 6%);
+    text-align: center;
+  }
+  
+  .form-row label {
+    display: block; /* Make labels block elements */
+  margin-bottom: 5px; /* Add space below labels */
+  color: #333; /* Label color */
+  text-align: center; /* Align the label text to the left */
+  }
+  
+  .form-row input[type="text"],
+  .form-row input[type="email"] {
+  width: 80%; /* Set width to 80% of container */
+  max-width: 200px; /* Set maximum width */
+  padding: 10px;
+  padding-left: 10px; /* Add padding */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 5px; /* Add border radius */
+  display: block; /* Make input fields block elements */
+  margin: 0 auto; /* Center align the input fields */
+  }
+  
+  /* Form Submit Button */
+  .button {
+    background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Add padding */
+  border-radius: 5px; /* Add border radius */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  display: block; /* Make button a block element */
+  margin: 0 auto; /* Center button horizontally */
+  transition: background-color 0.3s ease; /* Add transition effect */
+  }
+  
+  .button:hover {
+    background-color: green; /* Change background color on hover */
+  }
+
+  .btn{
+    flex: auto;
+    
+  }
+ 
+  

@@ -1,0 +1,85 @@
+/* styles.css */
+
+.item {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 10px auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+  
+  .name {
+    font-weight: bold;
+    padding-right: 10px;
+    border-radius: 10px;
+  }
+  
+  .email {
+    color: #666; /* Example styling for email */
+  }
+  
+
+  .btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 1px;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .btn svg {
+    fill: #ff0000;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .btn svg:hover {
+    fill: #cc0000;
+  }
+  .m {
+    text-align: center; /* Center-align the content within the container */
+    
+  }
+  
+  /* Text Styles */
+  .text {
+    font-weight: bold; /* Make the text bold */
+    font-size: 20px; /* Increase the font size */
+    color: #333; /* Darker color for better readability */
+    text-transform: uppercase; /* Convert text to uppercase */
+    display: block; /* Ensure the text is displayed as a block element */
+  margin-bottom: 10px;
+    
+  }
+  
+  /* Button Styles */
+  .addbtn {
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgb(17, 17, 18); /* Green border */
+    color: white;
+    background-color: rgb(45, 175, 218); /* Green background */
+    border-radius: 5px;
+  }
+  addbtn:hover{
+    background-color: green;
+  }
+  .list{
+    flex : 2; /* Add space between button and contact list */
+  }
